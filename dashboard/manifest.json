@@ -1,0 +1,14 @@
+{
+  "name": "nexora",
+  "label": "NEXORA",
+  "description": "Mission control: cockpit for the whole agent crew — live roster, missions, schedule, shared memory, agent map and host health, with actions.",
+  "icon": "Activity",
+  "version": "2.0.0",
+  "tab": {
+    "path": "/nexora",
+    "position": "after:home"
+  },
+  "entry": "dist/index.js",
+  "css": "dist/style.css",
+  "api": "plugin_api.py"
+}
